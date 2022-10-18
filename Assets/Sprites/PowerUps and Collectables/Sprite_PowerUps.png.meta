@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6cb413843a15448448cfc1830737b8aa
+guid: 719128b7a856387408ae80ad1b1b76a8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,1282 +117,1345 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walk1
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 78
-        width: 15
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d5dcf092cff43a4e9448afb607cb902
-      internalID: -1607693022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walk2
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 78
-        width: 16
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2a76300b6368414a9c9a5e604057cd6
-      internalID: -1591908138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walk3
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 78
-        width: 16
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dade5310c8ff7f04ea5e6649c9ebec7c
-      internalID: -526976897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkHold1
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 78
-        width: 16
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38fa203d54e3184498b56982aa14bb36
-      internalID: 2132344829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkHold2
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 78
-        width: 16
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d48e462d35061ee48b971cbe5b130443
-      internalID: 1047786103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkHold3
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 79
-        width: 16
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd4bf5c5fa7cb2740b2c3daa284abb73
-      internalID: 298062414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_6
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 78
-        width: 16
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5facb6366785f34d89cc110b117ca26
-      internalID: -351425710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_7
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 76
-        width: 16
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 734b5316cc1bf554e8f37ee7b5281204
-      internalID: -1448879606
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jump
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 76
-        width: 16
-        height: 31
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee4b751bb81859c45a8b9ae1c706255c
-      internalID: 53327952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fall
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 77
-        width: 16
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a18dc8821fd769f4e8ca04edb0d0fe9a
-      internalID: -496977090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_10
-      rect:
-        serializedVersion: 2
-        x: 185
-        y: 75
-        width: 16
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13ec4b7dd421c814f85dbc930867e823
-      internalID: 604854387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_11
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 75
-        width: 16
-        height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bee7c1119b9b9e84d9cfdbd37e13e339
-      internalID: 976110592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_12
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 75
-        width: 16
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7e98d7f05e581e43b95850d87e66631
-      internalID: -220652170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_13
-      rect:
-        serializedVersion: 2
-        x: 241
-        y: 75
-        width: 26
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f618058b9adeede4586413eb5ddd9b1a
-      internalID: 1565958286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_14
-      rect:
-        serializedVersion: 2
-        x: 269
-        y: 75
-        width: 16
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39ee32c6ed2c3c9428e18de605599ae1
-      internalID: 1585174267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_15
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 75
-        width: 16
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8db3bf70c2a3d44caa35e79c823e875
-      internalID: 1587444847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_16
-      rect:
-        serializedVersion: 2
-        x: 306
-        y: 75
-        width: 16
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b369f035c15960247b131514a54cce97
-      internalID: 2117392938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_1
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 75
-        width: 18
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6dfba141219fcc64fab08a00d07b1d4f
-      internalID: -1762274342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_2
-      rect:
-        serializedVersion: 2
-        x: 346
-        y: 75
-        width: 18
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c25220bdaf2397a41ab924c4145fa052
-      internalID: 750740770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run_3
-      rect:
-        serializedVersion: 2
-        x: 366
-        y: 76
-        width: 18
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b66bda368d300224f96ea06779d61507
-      internalID: 494441043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RunJump
-      rect:
-        serializedVersion: 2
-        x: 388
-        y: 75
-        width: 19
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad3af14f5e3c91642b4462161011d78a
-      internalID: -38175004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_21
-      rect:
-        serializedVersion: 2
-        x: 411
-        y: 75
-        width: 15
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c96d4d34d9c90544e8faab2714e315f1
-      internalID: 849802454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_22
-      rect:
-        serializedVersion: 2
-        x: 428
-        y: 75
-        width: 16
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7560cccf6fca65459a8507ebc88f3bf
-      internalID: 574928650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_23
-      rect:
-        serializedVersion: 2
-        x: 446
-        y: 76
-        width: 15
-        height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ad8251850d56774e9a521f3c517503a
-      internalID: -585039723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_24
+      name: Sprite_PowerUps_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 51
-        width: 23
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 159
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 268e0ea8d168e7f4690844a0a76f3153
-      internalID: 811994419
+      spriteID: 0ecb9dfb0fb4fa94888cb5c0d6cd0345
+      internalID: 581753237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_25
+      name: Sprite_PowerUps_1
       rect:
         serializedVersion: 2
-        x: 26
-        y: 54
-        width: 26
-        height: 20
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 22
+        y: 165
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db864bb3f3c55284db74383b8ab5e6c9
-      internalID: 1213229855
+      spriteID: 86014b00da9581a41be4c8082d0aa973
+      internalID: -1175658366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_26
+      name: Sprite_PowerUps_2
       rect:
         serializedVersion: 2
-        x: 57
-        y: 52
-        width: 26
-        height: 20
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 62
+        y: 165
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b129183630b1fd248bdc7bd3c46008f0
-      internalID: -1597238328
+      spriteID: 5b0af89bf07c9314c9a3b842c8fbd069
+      internalID: 1082564478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_27
+      name: Sprite_PowerUps_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 165
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6aed11c34cff841bd4cebbc53c577f
+      internalID: 734478450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 167
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef72ef65db4ec54381297fd954fc1f6
+      internalID: -63078784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 167
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a39b5fccda5bb4fa1aeb642ff2ad97
+      internalID: 152822053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orb
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 170
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251a5d72b2a888543aba4737d6c04fa9
+      internalID: 392705851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_7
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 143
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d135cead4436cd8478c82106fdf3a3bb
+      internalID: 118207961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093dddfe1ae1442448e49c534720fb9c
+      internalID: 532696337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 145
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f748d2e4b61be4384c61ab7f8ce8fc
+      internalID: -4221936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 145
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924d1fde19aa9a54c89b28600be02941
+      internalID: 217668072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 148
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae35316691f77e46b43d35a8fabc1d1
+      internalID: 1134082649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 148
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7fc2ddc64b66449b865f2357c08e1b
+      internalID: -593162302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 148
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c93383bdf562f04785c8938d75b15f7
+      internalID: -2008100430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin4
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 148
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c3e54aaba05d344a5168ec4c0e887a
+      internalID: 375689931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177aa59e75c3b344c97a2d1f63655352
+      internalID: 358153424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_16
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 123
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3d6c619b77d96439efa44945d75b93
+      internalID: 1653741413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 105
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26aabb96afb60e4993dc07af8fd659e
+      internalID: 442808256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe9cbe0b30dff1439cfa13ddff5e960
+      internalID: 93408735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HappyCoin
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 127
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d85eefcd72c8c048bf77a23cb0f0f56
+      internalID: -1375923391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_20
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 128
+        width: 48
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35b3d83ebf6dee42904d220784a2c6c
+      internalID: 321286769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_21
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59542206740a37148b2e15833d991cef
+      internalID: 1242889853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_22
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec81498e3ec7b9a47afac9c155771c5a
+      internalID: -466327445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_23
       rect:
         serializedVersion: 2
         x: 93
-        y: 52
-        width: 25
-        height: 20
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 106
+        width: 80
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5d0cec2db87f3e4cb67bc2604db7560
-      internalID: -115476819
+      spriteID: 944b610a6a5e1f84c80194cc61dc952a
+      internalID: -429709143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_28
+      name: Sprite_PowerUps_24
       rect:
         serializedVersion: 2
-        x: 124
-        y: 45
-        width: 20
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 81
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8272f1d3348a7434eb2d5c9dce0ff830
-      internalID: -626070447
+      spriteID: 137c82bbc66560e4a95e24cb75d026ae
+      internalID: -629304756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_29
+      name: Sprite_PowerUps_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1815d78122254d545bcfbbb044ba0e2a
+      internalID: -2069429478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_26
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 78
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbe6aa01ed4f4846847c96f9678bd4f
+      internalID: -1686150764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_27
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88e7222f80e97e438ff5955dc9079e2
+      internalID: 1026141923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_28
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 78
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b223985f0830f4b4a962e6a97ae901f4
+      internalID: 323836418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spring
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784f82b17f011e64d956eac0aed1a764
+      internalID: 480113863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Key
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 79
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637800f39bbeb9947b09cf499b1c875c
+      internalID: 125224901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KeyHole
       rect:
         serializedVersion: 2
         x: 148
-        y: 45
-        width: 19
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 81
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d90d0400d4864d44996196badaaf5b83
-      internalID: -1332115148
+      spriteID: d5e7d2b4abea59d4cbea3c703571fcd1
+      internalID: 165047820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_30
+      name: Mushroom
       rect:
         serializedVersion: 2
-        x: 170
-        y: 45
-        width: 19
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c71e637156fbe21459524531b1ed8066
-      internalID: -1528872421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_31
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 45
-        width: 20
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93bfa1d384e0f2f449dd76a5806c9319
-      internalID: -1640448719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_32
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 45
-        width: 20
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae2a54c4832fc544899e38cb4fe16fa9
-      internalID: -1869822474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_33
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 45
-        width: 20
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e57763a1ad62f7142aa8013e664450b1
-      internalID: -2121257456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_34
-      rect:
-        serializedVersion: 2
-        x: 262
-        y: 43
+        x: 35
+        y: 58
         width: 16
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77cc11e75fb552348b923d5f1670290d
-      internalID: 487881767
+      spriteID: 6a6318e23651edc40a6d02f627b828c5
+      internalID: 1751465735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_35
+      name: Flower
       rect:
         serializedVersion: 2
-        x: 279
-        y: 43
-        width: 20
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e2f88f428a3d1e41a79a5b5f5beb4b6
-      internalID: 1776970432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_36
-      rect:
-        serializedVersion: 2
-        x: 303
-        y: 42
+        x: 54
+        y: 58
         width: 16
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65d5786146ac53b418c2836029560f6d
-      internalID: 403008197
+      spriteID: 4f06246e933025241ba87104bd637ada
+      internalID: -1581198541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_37
+      name: Feather
       rect:
         serializedVersion: 2
-        x: 320
-        y: 42
-        width: 21
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b925b660d90f23c4e8da52a35899f151
-      internalID: -345845567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_38
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 42
+        x: 72
+        y: 58
         width: 16
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bc10c41a7b87544fb6862820761c23f
-      internalID: -734781645
+      spriteID: 46b3adf51d8a3e84883655ad4a55dcd0
+      internalID: 523948113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_39
+      name: 1up
       rect:
         serializedVersion: 2
-        x: 364
-        y: 42
+        x: 90
+        y: 59
         width: 16
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1fd552d4bfce0a40a017a50f65e0da0
-      internalID: 1492294989
+      spriteID: 7dcc9bf088ea3904d94d0dfd243dcea1
+      internalID: 1133789840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_40
+      name: Star1
       rect:
         serializedVersion: 2
-        x: 388
-        y: 42
+        x: 108
+        y: 60
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9200fa75137ebb34c8963915349f768b
+      internalID: -438560581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 60
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f6bf9101fef954ebe33f5a2412d34c
+      internalID: 380564833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PBalloon
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 62
         width: 16
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9383f52328a8335468669cacfbbcdb55
-      internalID: -1724448602
+      spriteID: 7f872024dbee3894d8e95577f6d3309b
+      internalID: 1790214136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_41
+      name: Sprite_PowerUps_39
       rect:
         serializedVersion: 2
-        x: 408
-        y: 42
+        x: 159
+        y: 61
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b77dbadd5b154438be90f4ed01fd13
+      internalID: 1445988788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
         width: 16
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4351c521c27b35a44b387643edae8238
-      internalID: -162214030
+      spriteID: 4a63ca3720475264890a6f0cb48821e0
+      internalID: 367055941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_42
+      name: PinkFruit1
       rect:
         serializedVersion: 2
-        x: 428
-        y: 43
-        width: 22
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 35
+        y: 22
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd1a600b79a99e84797369d437d366ed
-      internalID: 489383796
+      spriteID: 56a9590f90094c54ebd5b55e2f97a37c
+      internalID: 977758028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_43
+      name: RedFruit1
       rect:
         serializedVersion: 2
-        x: 453
-        y: 43
-        width: 18
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 35
+        y: 41
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea698383a668be04a8f0fa53b36a79d6
-      internalID: -1083394443
+      spriteID: 6a90082b9e1244048be6c801a2be0d77
+      internalID: -1975754451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_44
+      name: PinkFruit2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 23
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4122e6f8851dd5c4b911eb94e5dc681e
+      internalID: 2052939029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedFruit2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 42
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee25d6e4a810f7144a5ec4d1891c300a
+      internalID: 409705520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedFruit
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 41
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847aa7511acdb0047bd57eeb47fc429e
+      internalID: -1137095890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkFruit3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 23
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bffffdcbb6e43f468604ca477bca774
+      internalID: -1508538619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_47
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c107a485b0622c4698fe8a572524c82
+      internalID: -324411161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_48
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0a78e7ed706a24ca8d2702b09ad973
+      internalID: -561889308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_49
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe487db3f1a58b4c889aee6f6b47cdd
+      internalID: -742500422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_50
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744ef9fbfc18b5247a46361b25806168
+      internalID: -532111147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_51
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3910cf4db1c93744aa613e15fa5ad274
+      internalID: 144301553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_52
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbb6f145f795d34581ddc5127e991f7
+      internalID: -368389169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_53
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf57e1a4541a205449051bfc8d4c85e1
+      internalID: 1706384822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_54
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb2a6efe7ba9f545bd624ad698e93eb
+      internalID: 721974431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_PowerUps_55
       rect:
         serializedVersion: 2
         x: 1
-        y: 15
-        width: 16
-        height: 20
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        y: 0
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07fb4cc23d7637f43a39c09bfe9a181f
-      internalID: -1514775749
+      spriteID: 8ea75b5882b0a6246a07c69324f17e04
+      internalID: -1666778292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_45
+      name: Sprite_PowerUps_56
       rect:
         serializedVersion: 2
-        x: 23
-        y: 15
+        x: 35
+        y: 2
         width: 16
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8509944f5515680449c07f9bba18a0c8
-      internalID: -1664790638
+      spriteID: 5d67657e3a7db104db6d9e6cb709e22b
+      internalID: 2035301232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_46
+      name: Sprite_PowerUps_57
       rect:
         serializedVersion: 2
-        x: 41
-        y: 15
+        x: 53
+        y: 2
         width: 16
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 152aa83ad2272fe40ab850920836275a
-      internalID: 2125114768
+      spriteID: cc03f6d31be84c0449bc211b8039c5c7
+      internalID: -1543752207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire1
+      name: Sprite_PowerUps_58
       rect:
         serializedVersion: 2
-        x: 61
-        y: 15
+        x: 71
+        y: 2
         width: 16
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c69d84680fad1d0409450b2ddb2e66f8
-      internalID: 1369793185
+      spriteID: 791094ae2ac755d44a3aa4e88c249c8a
+      internalID: 502843093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire2
+      name: Sprite_PowerUps_59
       rect:
         serializedVersion: 2
-        x: 79
-        y: 15
-        width: 15
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 89
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c972a10c758c1004f83cdabc47098ede
-      internalID: 792361924
+      spriteID: 0e7cef1f04ce94840949b005dd3097f9
+      internalID: -229509459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire3
+      name: Sprite_PowerUps_60
       rect:
         serializedVersion: 2
-        x: 97
-        y: 17
+        x: 107
+        y: 2
         width: 16
-        height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da5061b673612454f8601be1bbcbeb08
-      internalID: -1214266898
+      spriteID: c2136561198d9f941bd4cc3affb76cfa
+      internalID: -859334809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_50
+      name: Sprite_PowerUps_61
       rect:
         serializedVersion: 2
-        x: 122
-        y: 13
+        x: 125
+        y: 2
         width: 16
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30eab446e2d53834fbc64dbf96ba1bf3
-      internalID: 1427606315
+      spriteID: e27e98cbcc35ed54c8f3f766236734a2
+      internalID: -1867168780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_51
+      name: Sprite_PowerUps_62
       rect:
         serializedVersion: 2
         x: 143
-        y: 12
+        y: 2
         width: 16
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca45a243f06aa7e41b6135ebf4ec12b2
-      internalID: 1839384481
+      spriteID: f8e9525c5e041f340ab49af3302a6689
+      internalID: 1249286389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite_Mario_52
+      name: Sprite_PowerUps_63
       rect:
         serializedVersion: 2
-        x: 164
-        y: 12
+        x: 160
+        y: 2
         width: 16
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56b58d31d61808046a1fb5d935c60acd
-      internalID: 1658206945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JumpAttack
-      rect:
-        serializedVersion: 2
-        x: 185
-        y: 10
-        width: 28
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 253f2a4074c8f5a4ea2d9e734406bb76
-      internalID: -970606657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JumpAttack2
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 9
-        width: 29
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f8cdf5714757b34c836de132cdddda4
-      internalID: 520613943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JumpAttack3
-      rect:
-        serializedVersion: 2
-        x: 253
-        y: 9
-        width: 27
-        height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 15f93888c4e2cf94c81cf95fae088b18
-      internalID: 1170640695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JumAttack4
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 7
-        width: 24
-        height: 31
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33524df60b9192d49ba7bc5ef3ed40cf
-      internalID: 1454223717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JumpAttack5
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 6
-        width: 24
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a885333c49a58a240874d7e70db33c27
-      internalID: 1215850070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JumpAttack6
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 0
-        width: 16
-        height: 41
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a95603d968a89ed4c836f7fb5904b03d
-      internalID: -432892227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_59
-      rect:
-        serializedVersion: 2
-        x: 365
-        y: 6
-        width: 15
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7b4da6a1cd7c054bac8bc1cec1749a6
-      internalID: -1761454974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Mario_60
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 4
-        width: 16
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdbb7621c9690d54c9130a55dcb732ba
-      internalID: -484807758
+      spriteID: 776a3c3067de84e4081cc3b1620108de
+      internalID: 1648033443
       vertices: []
       indices: 
       edges: []
@@ -1408,67 +1471,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Run_2: 750740770
-      Sprite_Mario_29: -1332115148
-      JumpAttack2: 520613943
-      Sprite_Mario_27: -115476819
-      Sprite_Mario_23: -585039723
-      Sprite_Mario_6: -351425710
-      Sprite_Mario_12: -220652170
-      Sprite_Mario_21: 849802454
-      Sprite_Mario_42: 489383796
-      Run_1: -1762274342
-      Sprite_Mario_33: -2121257456
-      Sprite_Mario_43: -1083394443
-      Sprite_Mario_50: 1427606315
-      Sprite_Mario_31: -1640448719
-      Sprite_Mario_44: -1514775749
-      Sprite_Mario_37: -345845567
-      Walk2: -1591908138
-      Sprite_Mario_52: 1658206945
-      Sprite_Mario_11: 976110592
-      Fire1: 1369793185
-      Run_3: 494441043
-      Jump: 53327952
-      Sprite_Mario_32: -1869822474
-      Sprite_Mario_10: 604854387
-      Sprite_Mario_45: -1664790638
-      Sprite_Mario_46: 2125114768
-      Sprite_Mario_13: 1565958286
-      Sprite_Mario_14: 1585174267
-      Sprite_Mario_38: -734781645
-      Sprite_Mario_34: 487881767
-      Fire2: 792361924
-      Sprite_Mario_26: -1597238328
-      Fall: -496977090
-      Walk3: -526976897
-      Sprite_Mario_24: 811994419
-      Sprite_Mario_15: 1587444847
-      JumpAttack: -970606657
-      Sprite_Mario_39: 1492294989
-      Sprite_Mario_51: 1839384481
-      JumpAttack3: 1170640695
-      Sprite_Mario_25: 1213229855
-      Sprite_Mario_35: 1776970432
-      Sprite_Mario_60: -484807758
-      JumAttack4: 1454223717
-      Sprite_Mario_59: -1761454974
-      RunJump: -38175004
-      Sprite_Mario_41: -162214030
-      JumpAttack6: -432892227
-      Sprite_Mario_36: 403008197
-      Sprite_Mario_22: 574928650
-      Sprite_Mario_30: -1528872421
-      Sprite_Mario_28: -626070447
-      Sprite_Mario_40: -1724448602
-      Sprite_Mario_7: -1448879606
-      Fire3: -1214266898
-      WalkHold1: 2132344829
-      JumpAttack5: 1215850070
-      Sprite_Mario_16: 2117392938
-      WalkHold2: 1047786103
-      Walk1: -1607693022
-      WalkHold3: 298062414
+      Sprite_PowerUps_2: 1082564478
+      Sprite_PowerUps_47: -324411161
+      Sprite_PowerUps_18: 93408735
+      Coin3: -2008100430
+      PinkFruit1: 977758028
+      Feather: 523948113
+      Star2: 380564833
+      Sprite_PowerUps_62: 1249286389
+      PinkFruit2: 2052939029
+      PBalloon: 1790214136
+      Spring: 480113863
+      Sprite_PowerUps_60: -859334809
+      Sprite_PowerUps_61: -1867168780
+      Sprite_PowerUps_0: 581753237
+      Sprite_PowerUps_27: 1026141923
+      Sprite_PowerUps_58: 502843093
+      Sprite_PowerUps_16: 1653741413
+      Sprite_PowerUps_56: 2035301232
+      Sprite_PowerUps_5: 152822053
+      Sprite_PowerUps_25: -2069429478
+      Flower: -1581198541
+      RedFruit: -1137095890
+      Sprite_PowerUps_8: 532696337
+      HappyCoin: -1375923391
+      KeyHole: 165047820
+      Sprite_PowerUps_22: -466327445
+      Sprite_PowerUps_54: 721974431
+      Sprite_PowerUps_48: -561889308
+      RedFruit2: 409705520
+      PinkFruit3: -1508538619
+      Sprite_PowerUps_15: 358153424
+      Star1: -438560581
+      Sprite_PowerUps_40: 367055941
+      Sprite_PowerUps_17: 442808256
+      Sprite_PowerUps_39: 1445988788
+      Sprite_PowerUps_49: -742500422
+      Sprite_PowerUps_50: -532111147
+      Sprite_PowerUps_24: -629304756
+      Sprite_PowerUps_57: -1543752207
+      Sprite_PowerUps_21: 1242889853
+      RedFruit1: -1975754451
+      Coin2: -593162302
+      Sprite_PowerUps_1: -1175658366
+      Mushroom: 1751465735
+      Sprite_PowerUps_26: -1686150764
+      Sprite_PowerUps_52: -368389169
+      1up: 1133789840
+      Sprite_PowerUps_4: -63078784
+      Sprite_PowerUps_7: 118207961
+      Sprite_PowerUps_10: 217668072
+      Sprite_PowerUps_51: 144301553
+      Sprite_PowerUps_3: 734478450
+      Sprite_PowerUps_53: 1706384822
+      Sprite_PowerUps_28: 323836418
+      Sprite_PowerUps_59: -229509459
+      Sprite_PowerUps_55: -1666778292
+      Sprite_PowerUps_63: 1648033443
+      Orb: 392705851
+      Sprite_PowerUps_9: -4221936
+      Sprite_PowerUps_23: -429709143
+      Coin1: 1134082649
+      Sprite_PowerUps_20: 321286769
+      Key: 125224901
+      Coin4: 375689931
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
