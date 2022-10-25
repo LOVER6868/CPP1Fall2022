@@ -1293,7 +1293,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JumAttack4
+      name: JumpAttack4
       rect:
         serializedVersion: 2
         x: 286
@@ -1408,6 +1408,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      JumpAttack4: 1454223717
       Run_2: 750740770
       Sprite_Mario_29: -1332115148
       JumpAttack2: 520613943
@@ -1451,9 +1452,8 @@ TextureImporter:
       Sprite_Mario_25: 1213229855
       Sprite_Mario_35: 1776970432
       Sprite_Mario_60: -484807758
-      JumAttack4: 1454223717
-      Sprite_Mario_59: -1761454974
       RunJump: -38175004
+      Sprite_Mario_59: -1761454974
       Sprite_Mario_41: -162214030
       JumpAttack6: -432892227
       Sprite_Mario_36: 403008197
