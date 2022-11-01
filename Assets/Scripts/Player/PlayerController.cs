@@ -66,11 +66,9 @@ public class PlayerController : MonoBehaviour
         Vector2 moveDirection = new Vector2(hInput * speed, rb.velocity.y);
         rb.velocity = moveDirection;
 
-        if (hInput < 0)
-        {
-            sr.flipX = true;
-        }
-        else if (hInput > 0) sr.flipX = false;
+        if (hInput != 0)
+            sr.flipX = (hInput < 0);
+
 
         anim.SetFloat("hInput", Mathf.Abs(hInput));
         anim.SetBool("isGrounded", isGrounded);

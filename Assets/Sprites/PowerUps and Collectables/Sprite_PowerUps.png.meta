@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1506,18 +1506,18 @@ TextureImporter:
       Sprite_PowerUps_40: 367055941
       Sprite_PowerUps_17: 442808256
       Sprite_PowerUps_39: 1445988788
-      Sprite_PowerUps_49: -742500422
-      Sprite_PowerUps_50: -532111147
-      Sprite_PowerUps_24: -629304756
-      Sprite_PowerUps_57: -1543752207
-      Sprite_PowerUps_21: 1242889853
-      RedFruit1: -1975754451
       Coin2: -593162302
+      Sprite_PowerUps_50: -532111147
+      Sprite_PowerUps_49: -742500422
+      Sprite_PowerUps_24: -629304756
+      Sprite_PowerUps_21: 1242889853
+      Sprite_PowerUps_57: -1543752207
       Sprite_PowerUps_1: -1175658366
       Mushroom: 1751465735
+      RedFruit1: -1975754451
       Sprite_PowerUps_26: -1686150764
-      Sprite_PowerUps_52: -368389169
       1up: 1133789840
+      Sprite_PowerUps_52: -368389169
       Sprite_PowerUps_4: -63078784
       Sprite_PowerUps_7: 118207961
       Sprite_PowerUps_10: 217668072
