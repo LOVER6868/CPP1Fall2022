@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
 
         if (jumpForce <= 0)
         {
-            jumpForce = 300;
+            jumpForce = 400;
         }
 
         if (!groundCheck)
@@ -96,5 +96,15 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("isGrounded", isGrounded);
         anim.SetFloat("fireInput", fireInput);
         anim.SetFloat("vInput", vInput);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Squish"))
+        {
+            collision.gameObject.GetComponentInParent<Goomba>().Squish();
+            rb.velocity = Vector2.zero;
+            rb.AddForce(Vector2.up * jumpForce);
+        }
     }
 }

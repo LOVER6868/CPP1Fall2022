@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: -5953928738839027875}
   - component: {fileID: -1018122587896970299}
   m_Layer: 0
-  m_Name: PlayerProjectile
-  m_TagString: PlayerProjectile
+  m_Name: EnemyProjectile
+  m_TagString: EnemyProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77,12 +77,12 @@ SpriteRenderer:
   m_SortingLayerID: -250081511
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -622077868, guid: bd7d7d8f9b988314a93e8fb9e19208f0, type: 3}
+  m_Sprite: {fileID: -1959818307, guid: 114d2c206b103bd499537c6fee04410d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.06, y: 0.07}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -150,7 +150,7 @@ Animator:
   m_GameObject: {fileID: 7748991863496434241}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b76d36b43a5cc234e9958c79fb8c9a77, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3a90f54f3983f7945b2cc0086a0df7fd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
