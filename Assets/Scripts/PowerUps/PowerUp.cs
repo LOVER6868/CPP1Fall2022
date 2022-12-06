@@ -18,12 +18,12 @@ public class PowerUp : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            PlayerController currPlayer = collision.gameObject.GetComponent<PlayerController>();
+            //PlayerController currPlayer = collision.gameObject.GetComponent<PlayerController>();
 
             switch(currentPickup)
             {
                 case PickupType.Life:
-                    currPlayer.lives++;
+                    GameManager.instance.lives++;
                     break;
                 case PickupType.Score:
                     break;

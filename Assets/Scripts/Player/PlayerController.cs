@@ -21,26 +21,6 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
 
     //variables
-    public int maxLives = 99;
-    private int _lives = 5;
-
-    public int lives
-    {
-        get { return _lives; }
-        set
-        {
-            //if (_lives > value)
-                //live lost
-
-            _lives = value;
-
-            if (_lives > maxLives)
-                _lives = maxLives;
-
-            //if (_lives < 0)
-                //gameover
-        }
-    }
 
     // Start is called before the first frame update
     void Start()
@@ -105,6 +85,11 @@ public class PlayerController : MonoBehaviour
             collision.gameObject.GetComponentInParent<Goomba>().Squish();
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * jumpForce);
+        }
+
+        if (collision.CompareTag("Checkpoint"))
+        {
+            GameManager.instance.currentLevel.UpdateCheckpoint(collision.gameObject.transform);
         }
     }
 }
