@@ -53,29 +53,32 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float hInput = Input.GetAxisRaw("Horizontal");
-        float fireInput = Input.GetAxisRaw("Fire1");
-        float vInput = Input.GetAxisRaw("Vertical");
-
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
-
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (GameManager.instance.paused == false)
         {
-            rb.velocity = Vector2.zero;
-            rb.AddForce(Vector2.up * jumpForce);
+            float hInput = Input.GetAxisRaw("Horizontal");
+            float fireInput = Input.GetAxisRaw("Fire1");
+            float vInput = Input.GetAxisRaw("Vertical");
+
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, isGroundLayer);
+
+            if (Input.GetButtonDown("Jump") && isGrounded)
+            {
+                rb.velocity = Vector2.zero;
+                rb.AddForce(Vector2.up * jumpForce);
+            }
+
+            Vector2 moveDirection = new Vector2(hInput * speed, rb.velocity.y);
+            rb.velocity = moveDirection;
+
+            if (hInput != 0)
+                sr.flipX = (hInput < 0);
+
+
+            anim.SetFloat("hInput", Mathf.Abs(hInput));
+            anim.SetBool("isGrounded", isGrounded);
+            anim.SetFloat("fireInput", fireInput);
+            anim.SetFloat("vInput", vInput);
         }
-
-        Vector2 moveDirection = new Vector2(hInput * speed, rb.velocity.y);
-        rb.velocity = moveDirection;
-
-        if (hInput != 0)
-            sr.flipX = (hInput < 0);
-
-
-        anim.SetFloat("hInput", Mathf.Abs(hInput));
-        anim.SetBool("isGrounded", isGrounded);
-        anim.SetFloat("fireInput", fireInput);
-        anim.SetFloat("vInput", vInput);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
