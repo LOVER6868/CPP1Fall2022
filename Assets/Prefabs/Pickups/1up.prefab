@@ -120,7 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd0859db491e97e4495a51e2967a6af9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentPickup: 0
+  currentPickup: 1
+  pickupSound: {fileID: 8300000, guid: 342c9fdc43f19534d97be0e2c4ea1c40, type: 3}
 --- !u!61 &7959470100989980816
 BoxCollider2D:
   m_ObjectHideFlags: 0

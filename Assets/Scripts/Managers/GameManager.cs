@@ -7,6 +7,7 @@ using UnityEngine.Events;
 [DefaultExecutionOrder(-1)]
 public class GameManager : MonoBehaviour
 {
+    AudioSourceManager asm;
     static GameManager _instance = null;
 
     public static GameManager instance
@@ -22,7 +23,11 @@ public class GameManager : MonoBehaviour
 
     //Lives
     public int maxLives = 99;
-    private int _lives = 5;
+    private int _lives = 0;
+
+    //Sounds
+    public AudioClip GameOversfx;
+    public AudioClip Deathsfx;
     public int lives
     {
         get { return _lives; }
@@ -39,7 +44,7 @@ public class GameManager : MonoBehaviour
             if (_lives < 0)
                 GameOver();
 
-            onLifeValueChanged?.Invoke(_lives);
+            onLifeValueChanged?.Invoke(value);
         }
     }
 
@@ -50,7 +55,9 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        if(_instance)
+        asm = GetComponent<AudioSourceManager>();
+
+        if (_instance)
         {
             Destroy(gameObject);
             return;
@@ -82,19 +89,27 @@ public class GameManager : MonoBehaviour
 
     public void SpawnPlayer(Transform spawnPoint)
     {
+        Debug.Log("Player Spawned");
         playerInstance = Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
         currentSpawnPoint = spawnPoint;
     }
 
     void Respawn()
     {
-        if(playerInstance)
+        if (asm && lives > 0)
+            asm.PlayOneShot(Deathsfx, true);
+
+        if (playerInstance)
             playerInstance.transform.position = currentSpawnPoint.position;
+
     }
 
     void GameOver()
     {
         SceneManager.LoadScene(2);
         playerInstance = null;
+
+        if (asm)
+            asm.PlayOneShot(GameOversfx, true);
     }
 }

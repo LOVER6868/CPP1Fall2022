@@ -121,6 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999eb42570e0a234a9febf8bccdc6224, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hit: {fileID: 8300000, guid: fd761a46ab80c134e964426092232263, type: 3}
   lifetime: 0
   floorHits: 0
   speed: 0

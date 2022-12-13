@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class CanvasManager : MonoBehaviour
 {
+    public AudioMixer audioMixer;
+
     [Header("Button")]
     public Button startButton;
     public Button settingsButton;
@@ -20,10 +23,12 @@ public class CanvasManager : MonoBehaviour
 
     [Header("Text")]
     public Text livesText;
-    public Text volSliderText;
+    public Text MusicSliderText;
+    public Text SFXSliderText;
 
     [Header("Slidedr:")]
-    public Slider volSlider;
+    public Slider musicVolSlider;
+    public Slider sfxVolSlider;
 
     void StartGame()
     {
@@ -36,11 +41,23 @@ public class CanvasManager : MonoBehaviour
         settingsMenu.SetActive(true);
     }
 
-    void OnSliderValueChanged(float value)
+    void OnMusicSliderValueChanged(float value)
     {
-        if(volSliderText)
-            volSliderText.text = value.ToString();
+        if (MusicSliderText)
+        {
+            MusicSliderText.text = value.ToString();
+            audioMixer.SetFloat("MusicVol", value - 80);
+        }
     }
+    void OnSFXSliderValueChanged(float value)
+    {
+        if (SFXSliderText)
+        {
+            SFXSliderText.text = value.ToString();
+            audioMixer.SetFloat("SFXVol", value - 80);
+        }
+    }
+
 
     void QuitGame()
     {
@@ -91,8 +108,21 @@ public class CanvasManager : MonoBehaviour
         if (returnToMenuButton)
             returnToMenuButton.onClick.AddListener(ShowMainMenu);
 
-        if (volSlider)
-            volSlider.onValueChanged.AddListener(OnSliderValueChanged);
+        if (musicVolSlider)
+        {
+            musicVolSlider.onValueChanged.AddListener(OnMusicSliderValueChanged);
+            float mixerValue;
+            audioMixer.GetFloat("MusicVol", out mixerValue);
+            musicVolSlider.value = mixerValue + 80;
+        }
+
+        if (sfxVolSlider)
+        {
+            sfxVolSlider.onValueChanged.AddListener(OnSFXSliderValueChanged);
+            float mixerValue;
+            audioMixer.GetFloat("SFXVol", out mixerValue);
+            sfxVolSlider.value = mixerValue + 80;
+        }
 
         if (returnToGameButton)
             returnToGameButton.onClick.AddListener(ResumeGame);

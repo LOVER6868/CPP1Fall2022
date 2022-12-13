@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    AudioSourceManager asm;
+    public AudioClip hit;
 
     public float lifetime;
     public int floorHits;
@@ -26,6 +28,8 @@ public class Projectile : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        asm = collision.gameObject.GetComponent<AudioSourceManager>();
+        
         if (collision.collider.tag == "Ground")
             floorHits--;
 
@@ -36,6 +40,10 @@ public class Projectile : MonoBehaviour
         {
             if (collision.gameObject.CompareTag("Enemy"))
             {
+
+                if (asm)
+                   asm.PlayOneShot(hit, false);
+
                 collision.gameObject.GetComponent<Enemy>().TakeDamage(1);
                 Destroy(gameObject);
             }

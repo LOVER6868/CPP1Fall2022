@@ -12,7 +12,7 @@ public class PowerUp : MonoBehaviour
     }
 
     public PickupType currentPickup;
-
+    public AudioClip pickupSound;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -30,6 +30,8 @@ public class PowerUp : MonoBehaviour
                 case PickupType.Powerup:
                     break;
             }
+            if (pickupSound)
+                collision.gameObject.GetComponent<AudioSourceManager>().PlayOneShot(pickupSound, false);
 
             Destroy(gameObject);
         }

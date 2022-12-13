@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
     SpriteRenderer sr;
+    AudioSourceManager asm;
 
     //Movement
     public float speed;
@@ -22,12 +23,18 @@ public class PlayerController : MonoBehaviour
 
     //variables
 
+    //Audio Source
+    public AudioClip jumpSound;
+    public AudioClip jumpAttack;
+    public AudioClip squish;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        asm = GetComponent<AudioSourceManager>();
 
         if (speed <=0)
         {
@@ -65,7 +72,11 @@ public class PlayerController : MonoBehaviour
             {
                 rb.velocity = Vector2.zero;
                 rb.AddForce(Vector2.up * jumpForce);
+                asm.PlayOneShot(jumpSound, false);
             }
+
+            if(!isGrounded && Input.GetButtonDown("Jump"))
+                asm.PlayOneShot(jumpAttack, false);
 
             Vector2 moveDirection = new Vector2(hInput * speed, rb.velocity.y);
             rb.velocity = moveDirection;
@@ -88,6 +99,7 @@ public class PlayerController : MonoBehaviour
             collision.gameObject.GetComponentInParent<Goomba>().Squish();
             rb.velocity = Vector2.zero;
             rb.AddForce(Vector2.up * jumpForce);
+            asm.PlayOneShot(squish, false);
         }
 
         if (collision.CompareTag("Checkpoint"))
