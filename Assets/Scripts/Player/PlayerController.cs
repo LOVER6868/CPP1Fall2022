@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         asm = GetComponent<AudioSourceManager>();
 
-        if (speed <=0)
+        if (speed <= 0)
         {
             speed = 6.0f;
         }
@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
             groundCheck = GameObject.FindGameObjectWithTag("GroundCheck").transform;
         }
 
-        if (groundCheckRadius <=0)
+        if (groundCheckRadius <= 0)
         {
             groundCheckRadius = 0.2f;
         }
@@ -75,7 +75,7 @@ public class PlayerController : MonoBehaviour
                 asm.PlayOneShot(jumpSound, false);
             }
 
-            if(!isGrounded && Input.GetButtonDown("Jump"))
+            if (!isGrounded && Input.GetButtonDown("Jump"))
                 asm.PlayOneShot(jumpAttack, false);
 
             Vector2 moveDirection = new Vector2(hInput * speed, rb.velocity.y);
@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Squish"))
+        if (collision.CompareTag("Squish"))
         {
             collision.gameObject.GetComponentInParent<Goomba>().Squish();
             rb.velocity = Vector2.zero;
@@ -105,6 +105,19 @@ public class PlayerController : MonoBehaviour
         if (collision.CompareTag("Checkpoint"))
         {
             GameManager.instance.currentLevel.UpdateCheckpoint(collision.gameObject.transform);
+        }
+
+        if (collision.CompareTag("DeathZone"))
+        {
+            GameManager.instance.lives--;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Enemy"))
+        {
+            GameManager.instance.lives--;
         }
     }
 }

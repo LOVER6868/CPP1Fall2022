@@ -106,7 +106,7 @@ public class GameManager : MonoBehaviour
 
     void GameOver()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
         playerInstance = null;
 
         if (asm)

@@ -70,14 +70,14 @@ public class CanvasManager : MonoBehaviour
 
     void ShowMainMenu()
     {
-        if (SceneManager.GetActiveScene().name == "Level1")
+        if (SceneManager.GetActiveScene().name == "MainTitle")
         {
-            SceneManager.LoadScene(0);
-            ResumeGame();
-        }
-        else {
             mainMenu.SetActive(true);
             settingsMenu.SetActive(false);
+        }
+        else {
+            SceneManager.LoadScene(0);
+            ResumeGame();
         }
     }
 
